@@ -1,0 +1,42 @@
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+    opacity: 0.8;
+    border-style: solid;
+    border-color: #BABFD1;
+}
+
+.separator {
+    width: 50vw;
+    background-color: #AFD2E9; 
+    height: 1px; 
+    border: 0;
+}
+
+.about {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10vh;
+    color:#FCCA46;
+    font-weight: 500;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 2.5vh;
+    font-weight: 0;
+    margin: 30px 25vw 30px 25vw;
+}
+
+.button {
+    margin: 20px;
+}
