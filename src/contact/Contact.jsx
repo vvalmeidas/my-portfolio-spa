@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import './contact.css'
 import Sidebar from '../common/sidebar/Sidebar'
-import useWebAnimations, { heartBeat } from "@wellyshen/use-web-animations";
+import useWebAnimations, { tada } from "@wellyshen/use-web-animations";
 
 export default props => {
-    const { ref } = useWebAnimations({ ...heartBeat })
+    const { ref } = useWebAnimations({ ...tada })
     
     return(
         <div className='wrapper'>

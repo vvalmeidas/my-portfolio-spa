@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../common/button/Button'
-import useWebAnimations, { backInUp, backInDown, bounceInLeft, bounceInRight, flipInX, flipOutX, flipInY } from "@wellyshen/use-web-animations";
+import useWebAnimations, { backInUp, backInDown, bounceInLeft, bounceInRight } from "@wellyshen/use-web-animations";
 
 import './banner.css'
 import icon from '../assets/imgs/icon.jpg'

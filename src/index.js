@@ -5,6 +5,8 @@ import './index.css'
 import Routes from './Routes'
 
 ReactDOM.render(
-  <Routes />,
+  <div>
+    <Routes />
+  </div>,
   document.getElementById('root')
 );
