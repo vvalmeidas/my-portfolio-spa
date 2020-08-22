@@ -1,8 +1,8 @@
 import React from 'react'
-import Button from '../common/button/Button'
+import Button from '../common/button'
 import useWebAnimations, { backInUp, backInDown, bounceInLeft, bounceInRight } from "@wellyshen/use-web-animations";
 
-import './banner.css'
+import './style.css'
 import icon from '../assets/imgs/icon.jpg'
 
 export default props => {

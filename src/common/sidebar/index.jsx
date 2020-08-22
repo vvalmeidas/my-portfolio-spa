@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './sidebar.css'
+import './style.css'
 import { HomeOutlined, MailOutlined, DesktopOutlined, DatabaseFilled } from '@ant-design/icons'
 import useWebAnimations, { fadeInLeftBig } from "@wellyshen/use-web-animations";
 
