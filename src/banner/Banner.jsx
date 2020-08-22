@@ -19,20 +19,20 @@ export default props => {
                     <div className='icon-wrapper'>
                         <img src={icon} className='icon'/>
                     </div>
-                    <span className='title'>
+                    <div className='title'>
                         @vvalmeidas
-                    </span>
+                    </div>
                 </div>
 
                 <hr className='separator' ref={refSepator1} />
                 
                 <div ref={refText}>
-                    <p className='text'>
+                    <div className='text'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima totam voluptas ducimus, consequatur consectetur quidem quos? Exercitationem assumenda enim molestias voluptas maxime labore, quam animi. Praesentium voluptates quos qui laudantium.
-                    </p>
-                    <p className='text'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex itaque sed debitis cumque quo necessitatibus impedit obcaecati, culpa fuga error. Beatae quia, veritatis fugit ex cumque itaque molestias aliquam quibusdam.
-                    </p>
+                    </div>
+                    <div className='text'>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima totam voluptas ducimus, consequatur consectetur quidem quos? Exercitationem assumenda enim molestias voluptas maxime labore, quam animi. Praesentium voluptates quos qui laudantium.
+                    </div>
                 </div>
 
                 <hr className='separator' ref={refSepator2} />

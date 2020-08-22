@@ -1,0 +1,23 @@
+.sidebar {
+    background-color: #191C24;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 6vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    font-size: 5vw;
+    color: whitesmoke;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+
+.item:hover {
+    color: #FD0D55;
+    opacity: 1.0;
+}
+

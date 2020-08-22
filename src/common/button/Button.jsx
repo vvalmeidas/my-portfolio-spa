@@ -6,7 +6,7 @@ export default props => {
     return (
         <div>
             <button className='button'>
-                <AiOutlineArrowDown size="2em" /> 
+                <a href="#/projects"><AiOutlineArrowDown size="2em" /> </a>
             </button>
         </div>   
     )
