@@ -1,3 +1,5 @@
+
+
 .sidebar__list {
     display: flex;
     flex-flow: column wrap;
@@ -9,7 +11,6 @@
     list-style: none;
 }
 
-
 .sidebar__icon {
     color: whitesmoke;
     font-size: 40px;
@@ -17,8 +18,17 @@
 }
 
 .sidebar__icon:hover {
-    color: #FD0D55;
+    color: #FCCA46;
     opacity: 1.0;
 }
 
+@media all and (max-width: 700px) {
+    .sidebar__list {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        height: 70px;
+        width: 100vw;
+    }
+}
 

@@ -9,6 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@wellyshen/use-web-animations": "^0.5.2",
+    "emailjs-com": "^2.6.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-icons": "^3.11.0",

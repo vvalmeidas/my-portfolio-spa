@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../common/button'
+import Button from './Button'
 import useWebAnimations, { backInUp, backInDown, bounceInLeft, bounceInRight } from "@wellyshen/use-web-animations";
 
 import './style.css'
@@ -40,8 +40,6 @@ export default props => {
                 <div ref={refButton}>
                     <Button className='button' />
                 </div>
-
-                
             </div>
         </div>
     )

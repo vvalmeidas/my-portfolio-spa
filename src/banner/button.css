@@ -12,8 +12,16 @@
 }
 
 .button:hover {
-    /* background-color: #8B7E87; */
-    background-color: #2EC4B6;
+    background-color: #FCCA46;
     border: none;
     padding: 17px 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button a:active {
+    text-decoration: none;
 }
