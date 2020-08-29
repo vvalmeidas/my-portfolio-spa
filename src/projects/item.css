@@ -1,0 +1,49 @@
+.item {
+    position: relative;
+    margin: 0;
+}
+
+.item_img {
+    display: block;
+    transition: .8s;
+}
+
+.item_img:hover {
+    opacity: 0.05;
+}
+
+.item_description {
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    top: 0;
+    opacity: 1.0;
+    transition: .15s;
+}
+
+.item_description--visibility-hidden {
+    visibility: hidden;
+}
+
+.item_text {
+    color: whitesmoke;
+    font-family: 'Nunito';
+    font-size: 20px;
+    text-align: center;
+}
+
+.item_subtext {
+    color: whitesmoke;
+    font-family: 'Nunito';
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.item_technologies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}

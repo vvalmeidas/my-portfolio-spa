@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import './style.css'
-import Sidebar from '../common/sidebar'
+import './contact.css'
+import Sidebar from '../common/sidebar/Sidebar'
 import useWebAnimations, { tada } from "@wellyshen/use-web-animations";
 
 export default props => {

@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 import useWebAnimations, { backInUp, backInDown, bounceInLeft, bounceInRight } from "@wellyshen/use-web-animations";
 
-import './style.css'
+import './banner.css'
 import icon from '../assets/imgs/icon.jpg'
 
 export default props => {

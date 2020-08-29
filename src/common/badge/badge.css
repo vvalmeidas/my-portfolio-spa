@@ -1,0 +1,17 @@
+.badge {
+    background-color: #08A045;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.badge_text {
+    font-size: 15px;
+    font-family: 'Mukta';
+    color: whitesmoke;
+}
