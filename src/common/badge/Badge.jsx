@@ -10,8 +10,8 @@ export default props => {
     const backgroundColor = props.color ? COLORS[props.color] : COLORS['blue']
 
     return(
-        <div style={{ backgroundColor }} class='badge'>
-            <p class='badge_text'>{ props.name }</p>
+        <div style={{ backgroundColor }} className='badge'>
+            <p className='badge_text'>{ props.name }</p>
         </div>
     )
 }

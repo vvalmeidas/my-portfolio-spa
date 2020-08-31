@@ -11,7 +11,6 @@ export default props => (
         </div>
         <div className='gallery_column'>
             <Item className='gallery_item' />
-            <Item className='gallery_item' />
         </div>
     </div>
 )

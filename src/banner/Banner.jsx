@@ -1,7 +1,6 @@
 import React from 'react'
-import Button from './Button'
 import useWebAnimations, { backInUp, backInDown, bounceInLeft, bounceInRight } from "@wellyshen/use-web-animations";
-
+import { AiOutlineArrowDown } from 'react-icons/ai'
 import './banner.css'
 import icon from '../assets/imgs/icon.jpg'
 
@@ -38,7 +37,11 @@ export default props => {
                 <hr className='separator' ref={refSepator2} />
 
                 <div ref={refButton}>
-                    <Button className='button' />
+                    <button className='button_banner'>
+                        <a href="#/projects">
+                            <AiOutlineArrowDown size="2em" /> 
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>

@@ -38,6 +38,31 @@
     margin: 30px 25vw 30px 25vw;
 }
 
-.button {
+.button_banner {
     margin: 20px;
+    background-color: #252934;
+    border: solid;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-width: 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button_banner:hover {
+    background-color: #FCCA46;
+    border: none;
+    padding: 17px 10px;
+}
+
+.button_banner a {
+    text-decoration: none;
+    color: white;
+}
+
+.button_banner a:active {
+    text-decoration: none;
 }

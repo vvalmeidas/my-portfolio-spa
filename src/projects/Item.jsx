@@ -4,23 +4,23 @@ import './item.css'
 import Badge from '../common/badge/Badge'
 
 export default props => {
-    const [isHidden, setIsHidden] = useState(true)
-    var descriptionClass = `item_description ${isHidden ? 'item_description--visibility-hidden' : ''}`
+    const [isHover, setIsHover] = useState(false)
+    var hoverState = `${isHover ? '--state-hover' : ''}`
 
     return (
         <div 
             className='item'
-            onMouseEnter={() => setIsHidden(false)}
-            onMouseLeave={() => setIsHidden(true)}
+            onMouseEnter={() => setIsHover(true)}
+            onMouseLeave={() => setIsHover(false)}
         >
             <img
-                className='item_img' 
+                className={`item_img${hoverState}`} 
                 src={ 'http://vvalmeidas.herokuapp.com/static/faf2c6c0e4171ac56363d5fb1bcf4f28/e6f84/project.png' } 
                 alt={ props.name || '' }
                 width='330'
                 height='195'
             />
-            <div className={ descriptionClass }>
+            <div className={`item_description${hoverState}`}>
                 <figcaption className='item_text'>
                     Painel de Monitoramento - Twitter
                 </figcaption>
@@ -32,6 +32,11 @@ export default props => {
                     <Badge color='pink' name="Vue.js" />
                     <Badge color='blue' name="EC2" />
                 </div>
+                <button className='item_button'>
+                    <a href="#/projects">
+                        Conheça
+                    </a>
+                </button>
             </div>
         </div>
 
