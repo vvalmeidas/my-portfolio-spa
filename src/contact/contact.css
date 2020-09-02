@@ -1,8 +1,6 @@
 .contact {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .contact_form {
@@ -13,13 +11,9 @@
     color: #707B99;
     font-family: 'Raleway';
     font-size: 20px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 100px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 .contact_separator {
@@ -99,4 +93,10 @@
         display: flex;
         flex-flow: column wrap;
     }
+
+    .contact_button {
+        margin-left: 60%;
+    }
+
+
 }

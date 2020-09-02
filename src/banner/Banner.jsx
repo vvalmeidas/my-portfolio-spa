@@ -24,13 +24,16 @@ export default props => {
                 </div>
 
                 <hr className='separator' ref={refSepator1} />
+
+
+
                 
                 <div ref={refText}>
                     <div className='text'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima totam voluptas ducimus, consequatur consectetur quidem quos? Exercitationem assumenda enim molestias voluptas maxime labore, quam animi. Praesentium voluptates quos qui laudantium.
+                        Sou desenvolvedor e atualmente estou cursando Engenharia de Computação na Universidade Estadual de Feira de Santana (UEFS). Já ocupei os cargos de membro consultor e diretor de projetos na Empresa Júnior de Engenharia de Computação da UEFS (Ecomp Jr), onde gerenciei e participei do desenvolvimento de sistemas web e mobile.
                     </div>
                     <div className='text'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima totam voluptas ducimus, consequatur consectetur quidem quos? Exercitationem assumenda enim molestias voluptas maxime labore, quam animi. Praesentium voluptates quos qui laudantium.
+                        sAtualmente participo de um projeto de iniciação científica, com bolsa da FAPESB, no qual desenvolvo um jogo mobile para o aprendizado de inglês com foco em pessoas com deficiência visual.
                     </div>
                 </div>
 
