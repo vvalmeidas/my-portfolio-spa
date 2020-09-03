@@ -1,4 +1,5 @@
 .contact {
+    background-color: #252934;
     display: flex;
     flex-flow: row wrap;
 }
@@ -97,6 +98,4 @@
     .contact_button {
         margin-left: 60%;
     }
-
-
 }

@@ -12,6 +12,7 @@ export default props => {
         <div className='projects'>
             <Sidebar className='projects_sidebar' />
             <div ref={ projectsAnimation } className='projects_gallery'>
+                <h1 className='projects_title'>Projetos</h1>
                 <Gallery />
             </div>
         </div>

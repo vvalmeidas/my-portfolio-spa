@@ -1,4 +1,5 @@
 .projects {
+    background-color: #252934;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -6,4 +7,13 @@
 
 .projects_gallery {
     margin: auto;
+}
+
+.projects_title {
+    color: #707B99;
+    font-family: 'Raleway';
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
 }
